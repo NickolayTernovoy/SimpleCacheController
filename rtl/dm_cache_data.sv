@@ -2,7 +2,7 @@
 /*cache: data memory, single port, 1024 blocks*/
 import cache_def::*;
 module dm_cache_data(
-	input bit 				clk,
+	input bit               clk,
  	input cache_req_type 	data_req,//data request/command, e.g. RW, valid
  	input cache_data_type 	data_write, //write port (128-bit line)
  	output cache_data_type 	data_read
